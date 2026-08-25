@@ -3,12 +3,38 @@
 <h3 align="center">A Survey and Empirical Audit of Full-Duplex Spoken Dialogue Systems</h3>
 
 <p align="center">
-  <a href="https://duplexlm.github.io/DuplexLM/demo.html">Demo</a> | Paper coming soon
+  <b>EMNLP 2026 (Main Conference)</b>
+</p>
+
+<p align="center">
+  Jingyu Lu<sup>1,2</sup>, Yuhan Wang<sup>1,2</sup>, Jianming Luo<sup>1</sup>, Yifu Chen<sup>1</sup>, Tianle Liang<sup>1</sup>, Shengpeng Ji<sup>3</sup>, Ziyue Jiang<sup>1</sup>, Xiaoda Yang<sup>1</sup>,<br/>
+  Yu Zhang<sup>4</sup>, Xize Cheng<sup>1</sup>, Chenyuhao Wen<sup>1</sup>, Changhao Pan<sup>1</sup>, Haoxiao Wang<sup>1</sup>, Chen Ye<sup>2</sup>, Jian Wu<sup>2</sup>,<br/>
+  Xiaoxi Jiang<sup>2</sup>, Guanjun Jiang<sup>2</sup>, Zhou Zhao<sup>1</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>Zhejiang University &nbsp;&middot;&nbsp;
+  <sup>2</sup>Qwen Business Unit, Alibaba &nbsp;&middot;&nbsp;
+  <sup>3</sup>HunYuan Team, Tencent &nbsp;&middot;&nbsp;
+  <sup>4</sup>ByteDance
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2606.19453"><img src="https://img.shields.io/badge/arXiv-2606.19453-b31b1b.svg" alt="arXiv"></a>
+  <a href="#whats-new"><img src="https://img.shields.io/badge/Venue-EMNLP%202026%20Main-4b8bbe.svg" alt="EMNLP 2026"></a>
+  <a href="https://duplexlm.github.io/DuplexLM/demo.html"><img src="https://img.shields.io/badge/Demo-Page-1f9c5a.svg" alt="Demo"></a>
+  <a href="https://github.com/MM-Speech/DuplexSurvey/stargazers"><img src="https://img.shields.io/github/stars/MM-Speech/DuplexSurvey?style=social" alt="GitHub stars"></a>
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2606.19453">📄 Paper</a> |
+  <a href="https://duplexlm.github.io/DuplexLM/demo.html">🎧 Demo</a> |
+  <a href="#citation">📌 Citation</a>
 </p>
 
 # 🚀 Quick Start
 
-This repository is the official repository for **Speaking While Listening: A Survey and Empirical Audit of Full-Duplex Spoken Dialogue Systems**.
+This repository is the official repository for **Speaking While Listening: A Survey and Empirical Audit of Full-Duplex Spoken Dialogue Systems**, accepted to the **EMNLP 2026 Main Conference**. It is maintained by the **MM-Speech** group; the anonymous review-period URL (`DuplexLM/DuplexSurvey`) now redirects here.
 
 - We organize full-duplex spoken dialogue systems with three lenses: the **L0-L3 Architectural Hierarchy**, the **T x I x R Interaction Ontology**, and the **Full-Duplex Decision State Machine**.
 - We provide visual summaries for the system timeline, architectural hierarchy, interaction scenarios, state machine, and cross-system audit.
@@ -16,6 +42,9 @@ This repository is the official repository for **Speaking While Listening: A Sur
 
 # 🔥What's new
 
+- 📦 **[2026/08] This repository has moved to [`MM-Speech/DuplexSurvey`](https://github.com/MM-Speech/DuplexSurvey). Links to the old anonymous URL still redirect here.**
+- 🏆 **[2026/08] Our paper has been accepted to the EMNLP 2026 Main Conference!**
+- 📄 **[2026/06] The preprint is available on [arXiv:2606.19453](https://arxiv.org/abs/2606.19453).**
 - 🎉 **[2026/06] We have officially released this survey repository for Full-Duplex Spoken Dialogue Systems!**
 
 ## Overview
@@ -43,6 +72,7 @@ Together, these frameworks turn the vague question "is this system full-duplex?"
   - [Full-Duplex Datasets](#full-duplex-datasets)
   - [Full-Duplex Benchmarks](#full-duplex-benchmarks)
 - [Citation](#citation)
+- [Contributing](#contributing)
 
 ## A Brief History of Full-Duplex Spoken Dialogue Systems
 
@@ -183,5 +213,22 @@ Together, T x I x R, the five-state FSM, and L0-L3 replace "is this full-duplex?
 
 ## Citation
 
+If you find this survey or repository useful, please cite our paper:
+
 ```bibtex
-TBD
+@article{lu2026fullduplex,
+  title   = {Speaking While Listening: A Survey and Empirical Audit of Full-Duplex Spoken Dialogue Systems},
+  author  = {Lu, Jingyu and Wang, Yuhan and Luo, Jianming and Chen, Yifu and Liang, Tianle and
+             Ji, Shengpeng and Jiang, Ziyue and Yang, Xiaoda and Zhang, Yu and Cheng, Xize and
+             Wen, Chenyuhao and Pan, Changhao and Wang, Haoxiao and Ye, Chen and Wu, Jian and
+             Jiang, Xiaoxi and Jiang, Guanjun and Zhao, Zhou},
+  journal = {arXiv preprint arXiv:2606.19453},
+  year    = {2026}
+}
+```
+
+## Contributing
+
+This list is meant to keep growing. If a full-duplex model, dataset, or benchmark is missing --
+or if you spot an error in the L0--L3 / T x I x R / FSM audit -- please open an
+[issue](https://github.com/MM-Speech/DuplexSurvey/issues) or a pull request.
