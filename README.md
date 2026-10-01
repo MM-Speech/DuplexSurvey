@@ -210,6 +210,7 @@ Together, T x I x R, the five-state FSM, and L0-L3 replace "is this full-duplex?
 | **τ-Voice** | T3<br>I2, I4, I7<br>R2, R4, R5 | 278 tasks | [🔗 GitHub](https://github.com/sierra-research/tau2-bench) |
 | **SID-Bench** | T3<br>I2, I4<br>R2 | ~10 h | [🔗 HuggingFace](https://huggingface.co/datasets/kxxia/SID-bench) |
 | **DualTurn Turn-Taking** | T3<br>I2<br>R4 | Oto: 287 h<br>SW: 256 h | [🔗 Oto HF](https://huggingface.co/datasets/anyreach-ai/dualturn-otospeech-turn-taking)<br>[🔗 SW HF](https://huggingface.co/datasets/anyreach-ai/dualturn-switchboard-turn-taking) |
+| **VoxParity** | T1<br>I1, I6, I7<br>R1 | 183 items | [🔗 GitHub](https://github.com/bhavik-mangla/voxparity-bench) |
 
 ## Citation
 
